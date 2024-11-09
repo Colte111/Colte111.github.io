@@ -48,7 +48,7 @@
     }
     /* ---------- NAV ---------- */
     nav{
-        @apply pt-[10px] flex items-center
+        @apply pt-[10px] flex items-center w-auto
     }
 
     h1{
@@ -80,7 +80,7 @@
     }
 
     .nav-link{
-        @apply text-blue-charcoal-200 font-bold text-[15px] m-[10px]
+        @apply text-blue-charcoal-200 font-bold text-[15px] p-2
     }
 
     .nav-link.active{

@@ -578,6 +578,7 @@ body {
 
 nav {
   display: flex;
+  width: auto;
   align-items: center;
   padding-top: 10px;
 }
@@ -659,7 +660,7 @@ h2 {
 }
 
 .nav-link {
-  margin: 10px;
+  padding: 0.5rem;
   font-size: 15px;
   font-weight: 700;
   --tw-text-opacity: 1;
@@ -772,6 +773,10 @@ h2 {
   margin-top: 4rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -790,6 +795,10 @@ h2 {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -837,6 +846,10 @@ h2 {
   padding: 1.25rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -845,6 +858,11 @@ h2 {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-11 {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
 }
 
 .pb-12 {
@@ -864,10 +882,6 @@ h2 {
   line-height: 1;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
-}
-
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -882,17 +896,16 @@ h2 {
   line-height: 1.75rem;
 }
 
+.text-\[15px\] {
+  font-size: 15px;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .font-semibold {
   font-weight: 600;
-}
-
-.text-blue-100 {
-  --tw-text-opacity: 1;
-  color: rgb(219 234 254 / var(--tw-text-opacity));
 }
 
 .text-blue-charcoal-200 {
