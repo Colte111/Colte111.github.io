@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstSem - WebDev</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
+    <link href="./input.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="flex flex-col sm:flex-row justify-center sticky top-0 z-0 items-center">
+        <div class="navLinks flex">
+            <a href="#Home" class="nav-link">Home</a>
+            <a href="#Skills" class="nav-link">Skills</a>
+            <a href="#Experience" class="nav-link">Experience</a>
+            <a href="#AboutMe" class="nav-link">AboutMe</a>
+        </div>
+    </nav>
+    
+
+    <div id="Home" class="section">
+        <div class="grid sm:grid-cols-1 my-[5%]">
+            <div class="am-titles flex justify-center ">
+                <div class="am-img flex justify-center lg:justify-start">
+                    <img src="./fotos/fotoPer-conFondo.png" class="w-[100px]"/>
+                </div>
+                <div>
+                    <h1>
+                        <i class="fa-regular fa-user"></i> Hey, I'm Esteban Sempere
+                    </h1>
+                    <h2>
+                        <i class="fa-solid fa-code"></i> Junior Fullstack Developer
+                    </h2>
+                </div>
+                <p class="text-[20px] my-7">
+                    I'm a Junior Fullstack Developer, with <span class="text-blue-charcoal-400 font-bold">+1 year of experience</span> working with <span class="text-blue-charcoal-400 font-bold">Angular and PL/SQL</span>.
+                    I also like to improve my skills using <span class="text-blue-charcoal-400 font-bold">C#</span> and <span class="text-blue-charcoal-400 font-bold">.NET Framework</span>. I always give my all to continue learning.
+                </p>
+                <div class="am-buttons">
+                    <button id="btnLinkedin" class="btn">
+                        <a href="https://www.linkedin.com/in/esteban-sempere-9b0920262/">
+                            <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+                        </a>
+                    </button>
+                    <button id="btnGitHub" class="btn">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </button>
+                    <button id="btnContact" class="btn">
+                        <i class="fa-solid fa-file"></i> Contact
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div id="Skills" class="section pt-11">
+        <h1 class="px-8 sm:px-0 mb-6">
+            <i class="fa-solid fa-laptop-code"></i> My Skills
+        </h1>
+        <div class="skills-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 text-white gap-4 p-5 bg-blue-900 rounded-xl">
+            <div class="box-exp" id="angular">
+                <div class="exp-img">
+                    <img src="./fotos/angular.png">
+                </div>
+                <div class="exp-text">
+                    <p>Angular</p>  
+                </div>
+            </div>
+            <div class="box-exp" id="csharp">
+                <div class="exp-img">
+                    <img src="./fotos/csharp.png" alt="">
+                </div>
+                <div class="exp-text">
+                    <p>C#</p>  
+                </div>
+            </div>
+            <div class="box-exp" id=".NET">
+                <div class="exp-img">
+                    <img src="./fotos/dotnet.png" alt="">
+                </div>
+                <div class="exp-text">
+                    <p>.NET</p>  
+                </div>
+            </div>
+            <div class="box-exp" id="typescript">
+                <div class="exp-img">
+                    <img src="./fotos/type.png" alt="">
+                </div>
+                <div class="exp-text">
+                    <p>TypeScript</p>  
+                </div>
+            </div>
+            <div class="box-exp" id="javascript">
+                <div class="exp-img">
+                    <img src="./fotos/js.webp" alt="">
+                </div>
+                <div class="exp-text">
+                    <p>JavaScript</p>  
+                </div>
+            </div>
+            <div class="box-exp" id="Tailwind">
+                <div class="exp-img">
+                    <img src="./fotos/tailwind.png" alt="">
+                </div>
+                <div class="exp-text">
+                    <p>Tailwind</p>  
+                </div>
+            </div>
+            <div class="box-exp" id="SQLServer">
+                <div class="exp-img">
+                    <img src="./fotos/sql.png" alt="">
+                </div>
+                <div class="exp-text">
+                    <p>SQL Server</p>  
+                </div>
+            </div>
+            <div class="box-exp" id="PL/SQL">
+                <div class="exp-img">
+                    <img src="./fotos/oracle.png" alt="">
+                </div>
+                <div class="exp-text">
+                    <p>PL/SQL</p>  
+                </div>
+            </div>
+            <div class="box-exp" id="html">
+                <div class="exp-img">
+                    <img src="./fotos/html5.png" alt="">
+                </div>
+                <div class="exp-text">
+                    <p>HTML</p>  
+                </div>
+            </div>
+            <div class="box-exp" is="css">
+                <div class="exp-img">
+                    <img src="./fotos/css.png" alt="">
+                </div>
+                <div class="exp-text">
+                    <p>CSS</p>  
+                </div>
+            </div>
+            <div class="box-exp" id="git">
+                <div class="exp-img">
+                    <img src="./fotos/git2.png" alt="">
+                </div>
+                <div class="exp-text">
+                    <p>Git</p>  
+                </div>
+            </div>
+            <div class="box-exp" id="docker">
+                <div class="exp-img">
+                    <img src="./fotos/docker.webp" alt="">
+                </div>
+                <div class="exp-text">
+                    <p>Docker</p>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Experience" class="section pt-11">
+        <h1 class="px-8 sm:px-0 mb-6">
+            <i class="fa-solid fa-business-time mr-2"></i>My Experience
+        </h1>
+        
+        <ol class="mt-16"> 
+            <li> 
+                <div class="mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 
+                before:border-blue-charcoal-200 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]"> 
+                    <div class="pb-12 md:col-span-2"> 
+                        <div class="sticky top-0"> 
+                            <span class="text-blue-charcoal-500 -left-[42px] absolute rounded-full text-5xl">•</span> 
+                            <h3 class="text-xl font-bold text-blue-charcoal-300">
+                                Junior Software Developer
+                            </h3> 
+                            <h4 class="font-semibold text-xl text-blue-charcoal-200">
+                                Geonet Territorial
+                            </h4> 
+                            <time class="p-0 m-0 text-sm text-blue-charcoal-50"> August 2023 - Actually</time> 
+                        </div> 
+                    </div> 
+                    <div class="flex flex-col gap-2 pb-4 text-gray-300 md:col-span-3"> 
+                        My main task is to develop new web components with Angular, prioritizing their optimization, 
+                        layout and design. I am also in charge of database management, creating new pl/sql blocks, 
+                        optimizing queries with large volumes of data. All this following good coding practices.
+                    </div> 
+                </div> 
+            </li>
+            <li> 
+                <div class="mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 
+                          before:border-blue-charcoal-200 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]"> 
+                    <div class="pb-12 md:col-span-2"> 
+                        <div class="sticky top-0"> 
+                            <span class="text-blue-charcoal-500 -left-[42px] absolute rounded-full text-5xl">•</span> 
+                            <h3 class="text-xl font-bold text-blue-charcoal-300">
+                                SPFx Trainee Developer
+                            </h3> 
+                            <h4 class="font-semibold text-xl text-blue-charcoal-200">
+                                NTT Data
+                            </h4> 
+                            <time class="p-0 m-0 text-sm text-blue-charcoal-50">February 2023 - June 2023</time> 
+                        </div> 
+                    </div> 
+                    <div class="flex flex-col gap-2 pb-4 text-gray-300 md:col-span-3"> 
+                        During the internship period, I worked with Sharepoint Framework (SPFx), developing new webpacks and webcomponents with React. 
+                        I was also in charge of creating new processes with Power Automate, implementing them in the Sharepoint pages. 
+                    </div> 
+                </div> 
+            </li> 
+        </ol>
+    </div>
+    
+    <div id="AboutMe" class="section pt-11">
+        <h1 class="px-8 sm:px-0 mb-6">
+            ... AboutMe
+        </h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 px-12 gap-5">
+            <div>
+                <p class="text-gray-300 mb-[40px]">
+                    My name is Esteban Sempere, I am a Junior Software Developer, with +1 year of experience.  
+                    My main stack is C#(.NET), Angular and T-SQL. I would like to learn new technologies, that's 
+                    why I am working on new personal projects.
+                </p>
+                <p class=" text-gray-300 mb-[40px]">
+                    Among my personal achievements, I would highlight the rapid incorporation into the labor market, 
+                    in addition to my daily work on new projects
+                </p>
+            </div>
+            <div class="am-img flex justify-center items-center">
+                <img src="./fotos/fotoPer-conFondo.png" class="sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px]"/>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pt-11">
+        Thank you for visit my Portfolio
+    </footer>
+
+    <script src="./portfolio.js"></script>
+</body>
+</html>
